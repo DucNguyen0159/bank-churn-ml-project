@@ -11,7 +11,7 @@ This project predicts whether a customer will churn using machine learning model
 - Logistic Regression
 - Neural Network
 - Decision Tree
-- Random Forest
+- K-Nearest Neighbors
 
 ## Results
 - Compared models using accuracy, precision, recall
