@@ -1,21 +1,21 @@
 # Customer Churn Prediction
 
 ## Overview
-This project predicts whether a customer will churn using machine learning models.
+This project predicts whether a customer will churn using machine learning models. 
 
 ## Dataset
 - Bank customer dataset
 - Features include age, balance, credit score, etc.
 
 ## Methods
-- Logistic Regression
-- Neural Network
-- Decision Tree
-- K-Nearest Neighbors
+1. **Logistic Regression** — interpretable linear baseline and coefficients  
+2. **Neural Network** (`MLPClassifier`) — nonlinear patterns  
+3. **Decision Tree** — rule-based splits and feature importances  
+4. **KNN** — similarity-based predictions on scaled features  
 
 ## Results
-- Compared models using accuracy, precision, recall
-- Random Forest achieved the best performance
+- Models are compared on the held-out test set using accuracy, precision, recall, and F1  
+- See the notebook for per-model metrics, confusion matrices, and plots (ROC for logistic regression, tree diagram for the decision tree, etc.)
 
 ## Tools Used
 - Python
