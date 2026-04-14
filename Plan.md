@@ -11,9 +11,11 @@ Evaluate model performance
 Understand what factors drive churn
 
 Methods:
-- Logistic Regression (feature importance/coef): which features increase churn risk?
-- Neural Network (nonlinear relationships): Can a more complex model do better?
-- Decision Tree (if-else rules): What decision patterns lead to churn?
-- KNN (similarity-based learning, instance-based model): Do customers behave like others who churned? If customers with similar profiles churned, this one might too
+- **Logistic Regression** (feature importance / coef): which features increase churn risk?
+- **Neural Network** (nonlinear relationships): can a more complex model do better?
+- **Tree-based method:**
+  - **Decision tree** — if–else rules; what decision patterns lead to churn?
+  - **Random forest** — ensemble of trees; often stronger accuracy and stability than a single tree, with feature importances that summarize many trees.
+- **KNN** (similarity-based learning): do customers behave like others who churned? If similar profiles churned, this one might too.
 
-With those methods, we have a pipeline: start simple - add complexity- add interpretability - compare with a different learning approach. 
+Pipeline: start simple (logistic) → add complexity (neural net) → **tree-based models (decision tree + random forest)** → similarity-based comparison (KNN).
