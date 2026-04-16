@@ -1,7 +1,7 @@
 # Customer Churn Prediction
 
 ## Overview
-This project predicts whether a customer will churn using machine learning, to support **early retention** (identifying at-risk customers before they leave). The full workflow is in **`BankChurnCode.ipynb`**.
+This project predicts whether a customer will churn using machine learning, to support **early retention** (identifying at-risk customers before they leave). The full workflow is implemented in the **Jupyter notebook** in this repository.
 
 Success is judged on a **held-out test set** with emphasis on **churn-class precision, recall, and F1** (not accuracy alone, because churn is the minority class). Which model best matches the bank’s priorities depends on whether **missing churners** or **false alarms** is more costly; the notebook compares several learners on the same split.
 
@@ -17,7 +17,7 @@ Success is judged on a **held-out test set** with emphasis on **churn-class prec
 
 ## Results
 - Models are compared on the **same stratified test set**; the summary table reports accuracy plus **precision, recall, and F1 for the churn class**, with **AUC** for logistic regression (probability-based). Confusion matrices show where each model trades off false positives and false negatives.  
-- See `BankChurnCode.ipynb` for metrics tables, confusion matrices, ROC (logistic regression), tree and forest plots, and feature-importance charts.
+- The notebook contains metrics tables, confusion matrices, ROC (logistic regression), tree and forest plots, and feature-importance charts.
 
 ## Tools Used
 - Python
@@ -52,5 +52,5 @@ Then run the `pip install` command above inside the activated environment.
 ## Author
 - Henry Nguyen
 - Jessica Nguyen
-- 
-- 
+- Brenna White
+- Carissa Hudson
